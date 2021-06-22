@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "454725613809",
+    "firebase_url": "https://wakeup-a088d-default-rtdb.firebaseio.com",
+    "project_id": "wakeup-a088d",
+    "storage_bucket": "wakeup-a088d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454725613809:android:46cf7289a999541e609150",
+        "android_client_info": {
+          "package_name": "com.example.wakeupapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454725613809-qcmv366o3t3jdp300q0iooon0v2u8j99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wakeupapp",
+            "certificate_hash": "1ce9f20a7bbbdeb6a93f5aeb179f7d8c44091b5a"
+          }
+        },
+        {
+          "client_id": "454725613809-gmlbs38ganueu594rak0209sugnpkpre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBllTQl0b8xWZ40VV4bsiGwzw4IMJ-TFxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454725613809-gmlbs38ganueu594rak0209sugnpkpre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:454725613809:android:8281d0f831c76838609150",
+        "android_client_info": {
+          "package_name": "com.example.wakeupapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "454725613809-h1ri5v0a9btfol6pv8m4t72pppmlmvtu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wakeupapplication",
+            "certificate_hash": "1ce9f20a7bbbdeb6a93f5aeb179f7d8c44091b5a"
+          }
+        },
+        {
+          "client_id": "454725613809-gmlbs38ganueu594rak0209sugnpkpre.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBllTQl0b8xWZ40VV4bsiGwzw4IMJ-TFxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "454725613809-gmlbs38ganueu594rak0209sugnpkpre.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

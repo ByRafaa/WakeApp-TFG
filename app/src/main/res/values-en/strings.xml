@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WakeUpApplication</string>
+    <string name="login_pass">Password</string>
+    <string name="login_button">Login</string>
+    <string name="login_error_message">Fill the fields to login</string>
+    <string name="login_successful">Successfully loged in</string>
+    <string name="login_error">Not found account</string>
+    <string name="app_selector">App Selector</string>
+    <string name="empty_fields">Fill the fields to continue</string>
+    <string name="edit">Edit</string>
+    <string name="google_button">SignIn with Google</string>
+    <string name="google_error">There\'s an error with your Google account</string>
+    <string name="having_account">Do you have not an account yet?</string>
+    <string name="register_here">Register here</string>
+    <string name="nick">Nickname</string>
+    <string name="accept_button">Accept</string>
+    <string name="register_pass_error">Error : Remember, your password must have at least 5 characters. Or maybe your account is already registered</string>
+    <string name="registered">Successfully registered. Login now</string>
+    <string name="number_button">SignIn with SMS</string>
+    <string name="number_phone">Phone Number</string>
+    <string name="send_sms">Send SMS</string>
+    <string name="verification_code">Verification code</string>
+    <string name="verify">Verify</string>
+    <string name="verification_sent">"Verification code sent to "</string>
+    <string name="verification_empty">Please, insert verification code already sent to your phone</string>
+    <string name="verification_error">Incorrect verification code</string>
+    <string name="my_alarms_menu">My Alarms</string>
+    <string name="info_menu">About</string>
+    <string name="sign_out_menu">SignOut</string>
+    <string name="hour_selection">Select time</string>
+    <string name="title">Message</string>
+    <string name="monday">MO</string>
+    <string name="tuesday">TU</string>
+    <string name="wednesday">WE</string>
+    <string name="thursday">TH</string>
+    <string name="friday">FR</string>
+    <string name="saturday">SA</string>
+    <string name="sunday">SU</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="dialog_title">Assign group</string>
+    <string name="dialog_message">Assign the group where you want to add your alarm</string>
+    <string name="dialog_accept">Accept</string>
+    <string name="dialog_deny">Cancel</string>
+    <string name="create_group">Create group</string>
+    <string name="alarm_dialog_title">Remove alarm</string>
+    <string name="alarm_dialog_message">Are you sure you want to remove that alarm?</string>
+    <string name="alarm_dialog_deleted">Your alarm has been removed from the database</string>
+    <string name="alarm_search">Search for the alarm you just have removed. Otherwise, it will still active</string>
+    <string name="alarm_activate">Search for the alarm you just have removed and toggle the button, depending of what you want to do on it</string>
+    <string name="group_dialog_title">Remove group</string>
+    <string name="group_dialog_message">Are you sure you want to remove that alarm?</string>
+    <string name="group_dialog_deleted">Your group has been deleted from the database</string>
+    <string name="log_out_dialog_title">SignOut</string>
+    <string name="log_out_dialog_message">Are you sure you want to SignOut?</string>
+    <string name="group_name">Group Name</string>
+    <string name="group_create_button">Create Group</string>
+    <string name="group_name_empty">Select a name for the group</string>
+    <string name="cant_delete_group">You cant remove a group if it has alarms. At first, remove all the alarms it contains</string>
+    <string name="alarms_quantity">"Alarms quantity : "</string>
+    <string name="submenu_title">Support</string>
+    <string name="submenu_item">Contact</string>
+    <string name="contact_mail">E-Mail</string>
+    <string name="contact_subject">Subject</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="info_view">THIS IS THE INFORMATION SECTION OF WAKEAPP \n \n
+                 To create an alarm, you must go to the My alarms section in the menu on the left and click the purple button. This will send you to a screen where you can
+                  specify the time, snooze days, alarm message, and tone. \n By clicking on the button that appears, you can assign the alarm to a group.
+                 If the group to which you want to add the alarm does not exist, by pressing Create Group you can create a group with the name you want. By doing this, your alarm will be created. \n
+                  You can see your alarm from the default Clock application that comes with your mobile device from the factory, but it is recommended that you do not edit anything, since these changes will not be reflected in WakeApp. \n
+                \n \n IMPORTANT \n \n
+                - If you delete an alarm from the Clock factory application on your mobile device, you must also delete it from WakeApp, as it will continue to appear as existing. \n \n
+                - You will not be able to create an alarm if you do not belong to an alarm group. \n \n
+                - You cannot create two groups with the same name. \n \n
+                - You cannot delete a group if it contains at least one alarm. \n \n</string>
+
+    <string name="group_exist">A group with this name already exists</string>
+    <string name="contact_menu">Contact</string>
+    <string name="ringtone_default">Default Ringtone</string>
+    <string name="ringtone_muted">Muted Ringtone</string>
+    <string name="alarm_exist">An alarm like yours already exists</string>
+    <string name="download_pdf">Download user manual (in spanish)</string>
+</resources>

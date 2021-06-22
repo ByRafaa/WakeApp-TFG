@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    tools:context=".vistas.CreateAlarm">
+
+    <TextView
+        android:id="@+id/hoursTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/hour_selection" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <NumberPicker
+            android:id="@+id/npHours"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:theme="@style/NumberPickerTheme" />
+
+        <TextView
+            android:id="@+id/separator"
+            android:layout_width="10dp"
+            android:layout_height="wrap_content"
+            android:text="  :"
+            android:textSize="36sp" />
+
+        <NumberPicker
+            android:id="@+id/npMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:theme="@style/NumberPickerTheme" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ToggleButton
+            android:id="@+id/tbMonday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textColorHighlight="@color/principal"
+            android:textColorLink="#FFFFFF"
+            android:textCursorDrawable="@color/principal"
+            android:textOff="@string/monday"
+            android:textOn="@string/monday" />
+
+        <ToggleButton
+            android:id="@+id/tbTuesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textColorLink="@color/principal"
+            android:textOff="@string/tuesday"
+            android:textOn="@string/tuesday" />
+
+        <ToggleButton
+            android:id="@+id/tbWednesday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textColorLink="@color/principal"
+            android:textOff="@string/wednesday"
+            android:textOn="@string/wednesday" />
+
+        <ToggleButton
+            android:id="@+id/tbThursday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textColorLink="@color/principal"
+            android:textOff="@string/thursday"
+            android:textOn="@string/thursday" />
+
+        <ToggleButton
+            android:id="@+id/tbFriday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textColorLink="@color/principal"
+            android:textOff="@string/friday"
+            android:textOn="@string/friday" />
+
+        <ToggleButton
+            android:id="@+id/tbSaturday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textColorLink="@color/principal"
+            android:textOff="@string/saturday"
+            android:textOn="@string/saturday" />
+
+        <ToggleButton
+            android:id="@+id/tbSunday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ToggleButton"
+            android:textColorLink="@color/principal"
+            android:textOff="@string/sunday"
+            android:textOn="@string/sunday" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/alarmMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/title"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/alarmRingtoneMuted"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            app:srcCompat="@drawable/mute" />
+
+        <EditText
+            android:id="@+id/alarmRingtone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:enabled="false"
+            android:gravity="center"
+            android:hint="@string/ringtone"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/alarmRingtoneBrowser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_weight="0"
+            android:background="#00FFFFFF"
+            app:srcCompat="@android:drawable/ic_search_category_default" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/bCreateAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:backgroundTint="@color/principal"
+            app:srcCompat="@drawable/alarmsplash" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/bBackFromCreateAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="?attr/homeAsUpIndicator" />
+    </LinearLayout>
+
+</LinearLayout>

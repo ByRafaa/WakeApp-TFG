@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_groups">
+
+    <fragment
+        android:id="@+id/nav_groups"
+        android:name="com.example.wakeupapplication.vistas.GroupsFragment"
+        android:label="fragment_alarms"
+        tools:layout="@layout/fragment_alarms" />
+    <activity
+        android:id="@+id/nav_alarms"
+        android:name="com.example.wakeupapplication.vistas.AlarmsActivity"
+        android:label="activity_alarms"
+        tools:layout="@layout/activity_alarms" />
+    <dialog
+        android:id="@+id/nav_logOut"
+        android:name="com.example.wakeupapplication.vistas.dialogs.ConfirmLogOutDialog"
+        android:label="ConfirmLogOutDialog" />
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.wakeupapplication.vistas.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.wakeupapplication.vistas.ContactFragment"
+        android:label="fragment_contact"
+        tools:layout="@layout/fragment_contact" />
+</navigation>

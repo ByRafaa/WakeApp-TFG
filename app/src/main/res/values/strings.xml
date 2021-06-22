@@ -1,0 +1,124 @@
+<resources>
+    <!-- APPLICATION -->
+    <string name="app_name">WakeUpApplication</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="app_selector">Seleccione la aplicación</string>
+
+    <!-- LOGIN -->
+    <string name="login_pass">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="login_error_message">Rellena los campos para iniciar sesión</string>
+    <string name="login_successful">Conectado correctamente</string>
+    <string name="login_error">Cuenta no encontrada</string>
+
+    <!-- GENERAL -->
+    <string name="empty_fields">Rellene todos los campos para continuar</string>
+    <string name="edit">Editar</string>
+
+    <!-- GOOGLE LOGIN -->
+    <string name="google_button">Iniciar sesión con Google</string>
+    <string name="google_error">Ha habido un problema con su cuenta de Google</string>
+
+
+    <!-- REGISTER -->
+    <string name="having_account">¿Aún no tienes una cuenta?</string>
+    <string name="register_here">Regístrate aquí</string>
+    <string name="nick">Nombre</string>
+    <string name="accept_button">Aceptar</string>
+    <string name="register_pass_error">Error : Recuerda que la contraseña debe tener un mínimo de 5 caracteres. O quizás su correo ya está registrado</string>
+    <string name="registered">Usuario registrado. Inicie sesión</string>
+
+    <!-- CODE VERIFICATION -->
+    <string name="number_button">Iniciar sesión con SMS</string>
+    <string name="number_phone">Número de teléfono</string>
+    <string name="send_sms">Enviar SMS</string>
+    <string name="verification_code">Código de Verificación</string>
+    <string name="verify">Verificar</string>
+    <string name="verification_sent">Código de verificación enviado a </string>
+    <string name="verification_empty">Por favor, inserte el código de verificación enviado a su teléfono</string>
+    <string name="verification_error">Código de verificación Incorrecto</string>
+
+    <!-- MENUS -->
+    <string name="my_alarms_menu">Mis alarmas</string>
+    <string name="info_menu">Información</string>
+    <string name="sign_out_menu">Cerrar sesión</string>
+    <string name="contact_menu">Contacto</string>
+
+    <!-- CREATE ALARM -->
+    <string name="hour_selection">Seleccione la hora</string>
+    <string name="title">Mensaje</string>
+    <string name="ringtone_default">Tono de alarma por defecto</string>
+    <string name="ringtone_muted">Sin tono de alarma</string>
+    <string name="alarm_exist">Ya existe una alarma con estas especificaciones</string>
+
+    <!-- DAY BUTTONS -->
+    <string name="monday">LU</string>
+    <string name="tuesday">MA</string>
+    <string name="wednesday">MI</string>
+    <string name="thursday">JU</string>
+    <string name="friday">VI</string>
+    <string name="saturday">SA</string>
+    <string name="sunday">DO</string>
+
+    <string name="ringtone">Tono de Alarma</string>
+
+    <!-- ASSIGN GROUPS DIALOG-->
+    <string name="dialog_title">Asignar Grupo</string>
+    <string name="dialog_message">Asigne el grupo al que desea añadir la alarma</string>
+    <string name="dialog_accept">Aceptar</string>
+    <string name="dialog_deny">Cancelar</string>
+    <string name="create_group">Crear Grupo</string>
+
+    <!-- CONFIRM DELETE ALARM DIALOG -->
+    <string name="alarm_dialog_title">Eliminar Alarma</string>
+    <string name="alarm_dialog_message">¿Está seguro de que desea eliminar la alarma?</string>
+    <string name="alarm_dialog_deleted">Su alarma se ha eliminado de la base de datos con éxito</string>
+    <string name="alarm_search">Busque la alarma que pertenece a la que tenía y elimínela o seguirá sonando</string>
+    <string name="alarm_activate">Busque la alarma que pertenece a la que tenía y actívela o desactívela</string>
+
+    <!-- CONFIRM DELETE GROUP DIALOG -->
+    <string name="group_dialog_title">Eliminar Grupo</string>
+    <string name="group_dialog_message">¿Está seguro de que desea eliminar el grupo?</string>
+    <string name="group_dialog_deleted">Su grupo se ha eliminado de la base de datos con éxito</string>
+
+    <!-- CONFIRM LOG OUT DIALOG -->
+    <string name="log_out_dialog_title">Cerrar Sesión</string>
+    <string name="log_out_dialog_message">¿Está seguro de que desea cerrar sesión?</string>
+
+
+    <!-- CREATE GROUP -->
+    <string name="group_name">Nombre del Grupo</string>
+    <string name="group_create_button">Crear Grupo</string>
+    <string name="group_name_empty">Especifique un nombre para el grupo</string>
+    <string name="group_exist">Ya existe un grupo con este nombre</string>
+
+    <!-- GROUP ADAPTER -->
+    <string name="cant_delete_group">No se puede borrar un grupo que contenga alarmas. Elimine las alarmas de este grupo antes de eliminar el grupo</string>
+    <string name="alarms_quantity">Cantidad de alarmas : </string>
+
+    <!-- INFO FRAGMENT -->
+    <string name="info_view">ESTE ES EL APARTADO DE INFORMACIÓN DE WAKEAPP \n \n
+                 Para crear una alarma, debe dirigirse al apartado Mis  Alarmas en el menú de la izquierda y darle al botón  morado. Esto le mandará a una pantalla donde podrá
+                  especificar la hora, los días de repetición, el mensaje de  la alarma y el tono.\n Dándole al botón que aparece, podrá asignar la alarma  a un grupo.
+                 Si el grupo al que quiere añadir la alarma no  existe, presionando Crear Grupo podrá crear un grupo  con el nombre que desee. Al hacer esto, se creará su  alarma. \n
+                  Podrá ver su alarma desde la aplicación por defecto Reloj que trae su dispositivo móvil de fábrica, pero es recomendable que no edite nada, ya que estos cambios no se verán reflejados en WakeApp. \n
+                \n \n IMPORTANTE \n \n
+                - Si borra una alarma desde la aplicación de fábrica Reloj de su dispositivo móvil, deberá eliminarla también desde WakeApp, ya que seguirá apareciendo como existente. \n \n
+                - No podrá crear una alarma si esta no pertenece a un grupo de alarmas. \n \n
+                - No podrá crear dos grupos con el mismo nombre. \n \n
+                - No podrá eliminar un grupo si este contiene, como mínimo, una alarma.  \n \n</string>
+    <string name="download_pdf">Descargar PDF con el manual de usuario en español</string>
+
+    <!-- SUBMENU -->
+    <string name="submenu_title">Ayuda</string>
+    <string name="submenu_item">Contacto</string>
+
+    <!-- MAIL CONTACT -->
+    <string name="contact_mail">E-Mail</string>
+    <string name="contact_subject">Asunto</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+
+
+</resources>
